@@ -1,0 +1,51 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+*{
+    text-decoration: none;
+}
+.card-img-top {
+	height: 200px;
+  width: 90%;
+	object-fit: cover;
+  margin: auto;
+}
+.card-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+	width: 90%;
+	max-width: 1280px;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+.card-link {
+	width: 32%;
+}
+.card {
+	padding: 2em;
+  display: flex;
+  flex-direction: column;
+	background-color: #ffffff37 !important;
+	color: #f9f9f9 !important;
+}
+.card p,
+.carousel-caption {
+	font-weight: 400;
+}
+.video-item{
+  background-color: #000000;
+}
+.player{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video{
+  width: 80%;
+}
+
